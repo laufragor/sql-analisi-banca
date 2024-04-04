@@ -2,7 +2,7 @@
 Creare una tabella denormalizzata che contenga indicatori comportamentali sul cliente, calcolati sulla base delle transazioni e del possesso prodotti. Lo scopo è creare le feature per un possibile modello di machine learning supervisionato.
 
 # Descrizione
-Viene fornito un database bancario costituito dalle tabelle `cliente`, `conto`, `tipo_conto`, `tipo_transazione`, `transazioni`.  
+Viene fornito un database bancario `db_bancario.sql` costituito dalle tabelle `cliente`, `conto`, `tipo_conto`, `tipo_transazione`, `transazioni`.  
 Per ogni cliente vengono creati i seguenti indicatori (riferiti all'id_cliente):
 
 * Età
