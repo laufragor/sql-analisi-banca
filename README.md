@@ -3,7 +3,7 @@ Creare una tabella denormalizzata che contenga indicatori comportamentali sul cl
 
 # Descrizione
 Viene fornito un database bancario `db_bancario.sql` costituito dalle tabelle `cliente`, `conto`, `tipo_conto`, `tipo_transazione`, `transazioni`.  
-Per ogni cliente vengono creati i seguenti indicatori (riferiti all'id_cliente):
+Usando le temporary table, per ogni cliente vengono creati i seguenti indicatori (riferiti all'id_cliente):
 
 * Età
 * Numero di transazioni in uscita su tutti i conti
@@ -16,3 +16,6 @@ Per ogni cliente vengono creati i seguenti indicatori (riferiti all'id_cliente):
 * Numero di transazioni in entrata per tipologia (un indicatore per tipo)
 * Importo transato in uscita per tipologia di conto (un indicatore per tipo)
 * Importo transato in entrata per tipologia di conto (un indicatore per tipo)
+
+Esempio di una temporary table usata durante la costruzione della tabella finale:
+![Temporary table](tmptable.png)
